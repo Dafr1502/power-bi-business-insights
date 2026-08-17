@@ -21,7 +21,9 @@ Proses pembersihan data dilakukan secara mendalam pada Power Query Editor:
   * Menangani nilai *quantity* yang tidak valid (seperti `-99`) dengan melakukan penyaringan (*filtering*) / *replacement* data.
 * **Custom & Calculated Columns:**
   * Menambahkan kalkulasi baru untuk kolom `total_sales` dengan rumus:
-    $$\text{total\_sales} = (\text{price} \times \text{quantity} \times (1 - \text{discount})) + \text{shipping\_fee}$$
+    ```math
+    total_sales = (price * quantity * (1 - discount)) + shipping_fee
+    ```
 
 ---
 
